@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, -apple-system, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background-color: #fbfbf1;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Logo */
+
+.logo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.logo-mark {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 0.75rem;
+}
+
+.logo-type {
+  height: 22px;
+  width: auto;
+}
+
+/* Legal */
+
+.legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.legal-title {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 0;
+}
+
+.legal-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.legal-links a {
+  font-size: 0.875rem;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.legal-links a:hover {
+  color: #3f3f3f;
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.75rem;
+  color: #bbb;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
