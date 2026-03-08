@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "phonography-web",
+  "compatibility_date": "2026-03-08",
+  "assets": {
+    "not_found_handling": "404-page"
+  }
+}
